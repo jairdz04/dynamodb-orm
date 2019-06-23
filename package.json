@@ -1,0 +1,28 @@
+{
+  "name": "dynamodb-orm",
+  "version": "0.0.1",
+  "description": "Object-relationa mapping for DynamoDB",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jairdz04/dynamodb-orm.git"
+  },
+  "keywords": [
+    "ORM"
+  ],
+  "author": "Jair Diaz Zambrano",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jairdz04/dynamodb-orm/issues"
+  },
+  "homepage": "https://github.com/jairdz04/dynamodb-orm#readme",
+  "dependencies": {
+    "aws-sdk": "^2.474.0",
+    "dotenv": "^8.0.0",
+    "lodash": "^4.17.11",
+    "uuid": "^3.3.2"
+  }
+}
